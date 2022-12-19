@@ -1,6 +1,5 @@
 import os
 import telebot
-from pyt import sandbox
 
 # Obtener la clave de API de Telegram desde una variable de entorno
 bot_token = os.environ['TELEGRAM_BOT_TOKEN']

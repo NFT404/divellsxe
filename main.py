@@ -5,7 +5,7 @@ import sys
 
 #from telebot.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-bot = telebot.TeleBot("5055992472:AAEbQ2e3ecF2rOpKRgmtWHy54acJDGDMGYY",parse_mode=None) # You can set parse_mode by default. HTML or MARKDOWN
+bot = telebot.TeleBot("5834763266:AAGCFgB-xAAR8p373xKw0hEKEHzu7z9CWPM",parse_mode=None) # You can set parse_mode by default. HTML or MARKDOWN
 
 #print(features.check_feature('raqm'))
 def build_menu(buttons,n_cols,header_buttons=None,footer_buttons=None):

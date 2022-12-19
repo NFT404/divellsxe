@@ -1,10 +1,7 @@
 import os
 import telebot
 
-# Obtener la clave de API de Telegram desde una variable de entorno
-bot_token = os.environ['TELEGRAM_BOT_TOKEN']
-
-bot = telebot.TeleBot(bot_token, parse_mode=None)
+bot = telebot.TeleBot("5055992472:AAEbQ2e3ecF2rOpKRgmtWHy54acJDGDMGYY", parse_mode=None)
 
 def build_menu(buttons,n_cols,header_buttons=None,footer_buttons=None):
     menu = [buttons[i:i + n_cols] for i in range(0, len(buttons), n_cols)]

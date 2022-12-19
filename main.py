@@ -1,8 +1,13 @@
-import os
 import telebot
+from io import StringIO
+import sys
 
-bot = telebot.TeleBot("5055992472:AAEbQ2e3ecF2rOpKRgmtWHy54acJDGDMGYY", parse_mode=None)
 
+#from telebot.types import InlineKeyboardButton, InlineKeyboardMarkup
+
+bot = telebot.TeleBot("5834763266:AAGCFgB-xAAR8p373xKw0hEKEHzu7z9CWPM",parse_mode=None) # You can set parse_mode by default. HTML or MARKDOWN
+
+#print(features.check_feature('raqm'))
 def build_menu(buttons,n_cols,header_buttons=None,footer_buttons=None):
     menu = [buttons[i:i + n_cols] for i in range(0, len(buttons), n_cols)]
     if header_buttons:
